@@ -1,0 +1,62 @@
+<style>
+    .image{
+        background-color: lightslategrey;
+       height: 600px;
+      text-align: center;
+      padding: 10px;
+      flex-basis: 100%;
+     border: 20px black solid;
+    
+    }
+    .image__galary{
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 80%;
+        justify-content: space-between;
+
+    }
+    .image__galary img{
+        flex-basis:30%;
+       margin: 10px;
+       height: 200px;
+       width: 50px;
+    }
+   .color{
+    background-color: black;
+    height: 4px;
+    width: 20%;
+    align-items: center;
+    margin-left: 40%;
+    border-bottom: 10px;
+    
+   }
+   
+   .image__head{
+    background-color: black;
+    color:gray ;
+    margin-right: 90%;
+    border-radius: 10px;
+    
+   }
+   
+
+   
+
+</style>
+
+<title>Image galary</title>
+<div class="image">
+    <h1 class="image__head">Header</h1>
+    <p>Image Galary</p>
+    <div class="color"></div>
+    <div class="image__galary">
+        
+<img src="ani1.jpeg" alt="animalimage">
+<img src="ani2.jpeg" alt="animalimage">
+<img src="ani3.jpeg" alt="animalimage">
+<img src="ani4.jpeg" alt="animalimage">
+<img src="ani5.jpeg" alt="animalimagee">
+<img src="ani6.jpeg" alt="animalimage">
+
+    </div>
+</div>
