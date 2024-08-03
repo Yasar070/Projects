@@ -1,0 +1,109 @@
+<style>
+div{
+    background-color: blueviolet;
+    color: white;
+    justify-content: center;
+    display: flex;
+    border-bottom: 30px;
+}
+.card__1{
+    background-color: green;
+    color: white;
+    height: 300px;
+    width: 300px;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px; 
+    border: #17193A solid 10px;
+    border-radius: 30px;
+   
+}
+.card__1 button{
+    border: none;
+    border: solid white 2px;
+    background-color:#17193A;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+.card__2{
+    background-color: green;
+    color: white;
+    height: 300px;
+    width: 300px;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px; 
+    border: #17193A solid 10px;
+    border-radius: 30px;
+}
+.card__2 button{
+    border: none;
+    border: solid white 2px;
+    background-color:#17193A;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+.card__3{
+    background-color: green;
+    color: white;
+    height: 300px;
+    width: 300px;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px; 
+    border: #17193A solid 10px;
+    border-radius: 30px;
+}
+.card__3 button{
+    border: none;
+    border: solid white 2px;
+    background-color:#17193A;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+.container{
+    display: flex;
+    height: 400px;
+}
+</style>
+
+    <div>
+        <h1>Choose your subscription</h1>
+    </div>
+    <div class="container">
+    <div class="card__1">
+        <h3> Recharge : Rs.399</h3>
+        <p>Data : 2GB/day</p>
+        <p>Validity : 28days</p>
+        <p>True 5G speed</p>
+        <button>Recharge</button>
+        
+    </div>
+    <!--div2-->
+    
+        <div class="card__2">
+            <h3> Recharge : Rs.299</h3>
+            <p>Data : 1.5GB/day</p>
+            <p>Validity : 28days</p>
+            <p>True 5G speed</p>
+            <button>Recharge</button>
+    </div>
+    <!--div3-->
+    
+        <div class="card__3">
+            <h3> Recharge : Rs.999</h3>
+            <p>Data : 3GB/day</p>
+            <p>Validity : 90days</p>
+            <p>True 5G speed</p>
+            <button>Recharge</button>
+    </div>
+</div>
